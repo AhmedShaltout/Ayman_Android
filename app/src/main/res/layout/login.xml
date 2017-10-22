@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bklogin"
+    android:orientation="vertical"
+    tools:context="com.example.ubuntu.androidsupplements.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="50dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="69dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.02"
+            app:srcCompat="@drawable/logowhitedrawer" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:text="Log in to your Account"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="15sp" />
+
+        <EditText
+
+            android:id="@+id/editText"
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/phonenumebericon"
+
+            android:ems="10"
+            android:inputType="phone"
+            android:layout_weight="0.04" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="307dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:drawableLeft="@drawable/passwordicon"
+            android:inputType="textPassword"            />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="249dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/round_button"
+            android:padding="5dp"
+            android:text="Login"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.20"
+            android:gravity="top|center_horizontal"
+            android:text="Forgot Password?"
+            android:textColor="@android:color/background_light" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Don't  have an account? Sign Up"
+            android:textColor="@android:color/background_light" />
+    </LinearLayout>
+</LinearLayout>
